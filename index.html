@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+
+    <!---FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!---ICONS-->
+    <script src="https://kit.fontawesome.com/e0002c32a5.js" crossorigin="anonymous"></script>    
+
+    <!---CSS-->
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+    <img src="npcss.png" height="60px" width="60px" >
+    <p id="powered by n-pcs">n-pcs</p>
+    <section>
+        <div class="container">
+            <h1>pomodoro</h1>
+            <div class="panel">
+                <b>
+                <p id="work" class="active">work</p>
+                <p id="break">break</p>
+                </b>
+            
+                <div class="timer">
+                    <div class="circle">
+                        <div class="time">
+                            <p id="minutes">25</p>
+                            <p>:</p>
+                            <p id="seconds">0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button id="start" onclick="start()"><i class="fa-solid fa-play"> start</i></button>
+
+                    <a id="reset" href="/"><i class="fa-solid fa-rotate-left"> reset</i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    
+    <!---JS-->
+    <script src="./script.js"></script>
+</body>
+
+</html>
