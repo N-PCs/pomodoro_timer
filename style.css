@@ -16,7 +16,7 @@
 html,
 body {
     height: 85%;
-    background-image:url(/backg.jpeg);
+    background-color: var(--color-primary);
     font-size: 20px;
     font-family: "Montserrat";
 }
